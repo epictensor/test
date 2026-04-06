@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# Observation directory
+.observation/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

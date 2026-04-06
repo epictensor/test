@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  code-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: code-app
+    restart: unless-stopped
+    # The app runs indefinitely, no ports needed for this simple script
