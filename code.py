@@ -9,7 +9,7 @@ openai_key = os.environ.get("OPENAI_API_KEY")
 
 while True:
   print(f"{num}: {openai_key}")
-  print(f"v2")
+  print(f"v3")
   num += 10
   time.sleep(10)
   
